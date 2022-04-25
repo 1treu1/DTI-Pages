@@ -1,0 +1,66 @@
+.text-import {
+    color: #97c933 !important;
+   }
+/* #header {
+    width: 80px;
+} */
+.btn-dti{
+    background-color: #97c933;
+    color: white;
+}
+.btn-dti:hover {
+    background-color: #82ad36;
+   }
+#model1 {
+    z-index: 1;
+    position: relative;
+    top: 200px; 
+    left: 25px;
+}
+#dtiF {
+    z-index: 1;
+    position: relative;
+    top: 235px; 
+    left: 25px;
+}
+#testButton {
+    z-index: 1;
+    position: relative;
+    top: -60px; 
+    left: 0px;
+}
+#main img {
+    max-height: 100vh;
+    max-width: 100vh;
+    object-fit: cover;
+    filter: grayscale();
+    position: relative;
+    top: 10px; 
+    left: 250px;
+    /* border-radius: 50%; 
+    margin: 30%; 
+    border: 2px solid #fff;
+    display: block; */
+
+}
+/* #carousel {
+    position: relative;
+    top: 10px; 
+    left: 250px;
+
+}*/
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: -10px; 
+    left: 130px;
+    bottom: 0;
+
+} 
+#footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer a {
+    color: white;
+}
